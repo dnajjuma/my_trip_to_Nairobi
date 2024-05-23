@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Trip to Nairobi</title>
+</head>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        margin-inline: 40px;
+        background-color: floralwhite;
+    }
+
+    h1 {
+        text-align: center;
+        color: #333;
+    }
+
+    p {
+        text-align: center;
+        color: #333;
+    }
+
+    input[type="text"] {
+        padding: 10px;
+        margin: 10px;
+        width: 50%;
+    }
+
+    button {
+        padding: 10px;
+        margin: 10px;
+        background-color: #333;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+    }
+
+    ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 0;
+    }
+
+    li {
+        padding: 10px;
+        margin: 10px;
+        background-color: #f9f9f9;
+        border-radius: 5px;
+    }
+
+    img {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+    }
+</style>
+<body>
+    <!-- center the div -->
+    <div style="text-align: center; margin-top: 20px;">
+        <img src="assets/images/ug.png" alt="Uganda" style="width: 80px; height: 80px; border-radius: 50%;"> ❤
+        <img src="assets/images/kenya.png" alt="Kenya" style="width: 80px; height: 80px; border-radius: 50%;">
+    </div>
+    <h1>My Trip to Nairobi</h1>
+    <h6 style="text-align: center;"><i>Thee ultimate lists ..</i></h6>
+    <p>My name is <b>Diana 😊</b>. I am 25 years old. I live in Kampala Uganda.</p>
+    <p>I will be travelling to <b>Nairobi, Kenya</b> on the 31st March 2024. The plan is to tag along with dad as he
+        goes for a business trip. I am excited to see the city I feel like I lived there in a past life. We shall
+        use Simba buses. Departure time is 4:00pm EAT.  This is my bucket-list of places to visit while there. </p>
+    </p>
+    <input type="text" id="taskInput" placeholder="Add new place">
+    <button id="addTaskBtn">Add Place</button>
+    <ul id="taskList"></ul>
+
+    <h2 style="text-align: center; margin-top: 50px;"><i>Packing List</i></h2>
+    <input type="text" id="itemNameInput" placeholder="Item Name">
+    <input type="file" id="imageInput" accept="image/*">
+    <button id="addItemBtn">Add Item</button>
+    <ul id="packingList"></ul>
+
+    
+
+    <script src="script.js"></script>
+
+    <script src="packing_list.js"></script>
+</body>
+<footer style="text-align: center;  margin-top: 50px; height: 50px;">
+    <p style="color: #fff; background-color: #000;">&copy; 2024 Diana</p>
+</footer>
+</html>
